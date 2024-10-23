@@ -1,6 +1,6 @@
 #Este programa calcula el IMC (indice de masa personal) de cada persona
-peso=float(input('Introduce tu peso en Kg'))
-altura=float(input('Introduce tu altura en m (recuerda que la coma en python es un punto)'))
+peso=float(input('Introduce tu peso en Kg '))
+altura=float(input('Introduce tu altura en m (recuerda que la coma en python es un punto) '))
 IMC=round(peso/(altura**2),2)
 print(f'Tu IMC sera de {IMC}')
 if (IMC>=30):
