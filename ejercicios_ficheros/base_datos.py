@@ -58,6 +58,9 @@ while True:
             else:
                 print('Ese usuario no existe')
         case '5':
-            break
+            with open('ejercicios_ficheros/usuarios.dat', 'w') as f:
+                for clave,valor in usuarios.items():
+                    f.write(clave + '\n')
+                    f.write(str(valor)+'\n')
         case '6':
             break
