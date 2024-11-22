@@ -10,4 +10,4 @@ def segundos_a_resto ():
     pr_horas = segundos/3600
     print(f'Los segundos proporcionados són equivalentes a {pr_segundos} segundos, {pr_minutos} minutos y {pr_horas} horas')
 
-def
+def 
