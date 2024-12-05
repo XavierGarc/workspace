@@ -30,7 +30,7 @@ def calcular_dia_juliano(dia, mes, año, bisiesto, dia_juliano):
         dia_juliano += dias_mes 
 
 print("Cálculo del Día Juliano") 
-dia, mes, año = leer_fecha() 
+dia, mes, año = leer_fecha()
 bisiesto = es_bisiesto(año, False) 
 dias_mes = dias_del_mes(mes, año, bisiesto) 
 if 1 <= mes <= 12 and 1 <= dia <= dias_mes:   

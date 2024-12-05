@@ -1,0 +1,12 @@
+Apuntes de un video visto en clase:
+
+- API (Application Programming Interface) es una interfaz que va a permitir que nuestra aplicación se conecte con otras para aprovechar el progreso y recursos ya usados.
+-Las API pueden ser de varios tipos locales o remotas, como por ejemplo:
+
+1.Rest -> ''(Representational State Transfer)''
+2.'Soap'
+3. 'Rest'
+
+-Las API pueden ser públicas o privadas
+-Token -> objeto que contiene toda nuestra información de acceso
+-JSON -> (JavaScript Object Notation)
